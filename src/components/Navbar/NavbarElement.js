@@ -5,7 +5,7 @@ import { IoCarSportSharp } from 'react-icons/io5'
 
 // Navbar element
 export const Nav = styled.nav`
-    background: black;
+    background: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -45,5 +45,5 @@ p {
 // Bars
 export const Bars = styled(IoCarSportSharp)`
     font-size: 2rem;
-    transform: translate(-50%, -15%)
+    transform: translate(-50%, -15%);
 `
