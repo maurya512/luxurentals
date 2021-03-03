@@ -2,6 +2,7 @@
 import React from 'react';
 import {BrowserRouter as Router } from 'react-router-dom';
 import Feature from './components/Feature';
+import Footer from './components/Footer';
 
 // import files/components
 import Hero from './components/Hero'
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Products heading='Choose your fav' data={productData}/>
       <Feature />
+      <Footer />
     </Router>
   );
 }
